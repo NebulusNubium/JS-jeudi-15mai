@@ -1,0 +1,40 @@
+button {
+    padding: 12px 25px;
+    position: absolute;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.supprimer {
+    right: 20%;
+}
+.modifier {
+    right: 40%;
+}
+.terminé {
+    right: 30%;
+}
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input {
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.modifier, .terminé, .supprimer {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    position: relative;
+}
